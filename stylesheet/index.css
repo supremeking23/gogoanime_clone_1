@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #000 !important; }
+
+#wrapper {
+  width: 1088px;
+  background: #1B1B1B;
+  margin: 0 auto;
+  padding: 10px 20px; }
+
+.social-icon {
+  background: url(https://gogoanime.fi/img/bg/share_link_6.png?v=1) no-repeat 0px 0px;
+  display: inline-block;
+  height: 23px;
+  width: 21px;
+  transition: all 0.3s linear 0s; }
+  .social-icon.telegram {
+    background-position: -155px 0px; }
+    .social-icon.telegram:hover {
+      background-position: -155px -23px; }
+  .social-icon.discord {
+    background-position: -125px 0px; }
+    .social-icon.discord:hover {
+      background-position: -125px -24px; }
+  .social-icon.facebook {
+    background-position: 1px 0px; }
+    .social-icon.facebook:hover {
+      background-position: 1px -23px; }
+  .social-icon.twitter {
+    background-position: -32px 0px; }
+    .social-icon.twitter:hover {
+      background-position: -32px -24px; }
+
+header {
+  display: flex !important;
+  justify-content: space-between;
+  margin-left: 200px; }
+  header #login_signup_container {
+    align-items: center;
+    display: flex;
+    width: 150px; }
+    header #login_signup_container span {
+      content: '';
+      background: url(https://gogoanime.fi/img/bg-main-3.png) no-repeat -535px -97px;
+      display: inline-block;
+      height: 23px;
+      width: 21px; }
+    header #login_signup_container ul {
+      margin: 0;
+      list-style: none; }
+      header #login_signup_container ul li {
+        display: inline-block;
+        height: 30px; }
+        header #login_signup_container ul li:first-of-type::after {
+          height: 30px;
+          margin-left: 5px;
+          display: inline-block;
+          content: "|";
+          color: #a1a1a1; }
+        header #login_signup_container ul li a {
+          font-size: 12px;
+          color: #a1a1a1; }
+  header #social_media_container {
+    display: flex; }
+    header #social_media_container ul {
+      list-style: none;
+      margin: 0;
+      color: yellow; }
+      header #social_media_container ul:nth-of-type(1) {
+        margin-right: 10px; }
+      header #social_media_container ul li {
+        display: inline-block; }
+        header #social_media_container ul li a {
+          color: #a1a1a1;
+          font-size: 14px; }
+
+nav {
+  display: flex !important;
+  align-items: center; }
+  nav img {
+    margin-right: 40px; }
+  nav ul {
+    list-style: none;
+    margin: 0; }
+    nav ul li {
+      display: inline-block;
+      margin: 0px 18px; }
+      nav ul li a {
+        color: #fff;
+        padding-bottom: 3px; }
+        nav ul li a:hover {
+          text-decoration: none;
+          color: #ffc119;
+          border-bottom: 2px solid #ffc119; }
+  nav form {
+    border: 1px solid #a1a1a1;
+    background-color: #101010;
+    border-radius: 0px;
+    width: 298px;
+    position: relative; }
+    nav form input {
+      border: 0px;
+      padding: 0 10px;
+      background-color: transparent;
+      color: #ffc119;
+      line-height: 30px;
+      height: 30px;
+      width: 100%; }
+      nav form input:focus {
+        outline: none; }
+    nav form button {
+      position: absolute;
+      right: 0;
+      background: url(https://gogoanime.fi/img/icon/searcch.png) no-repeat;
+      display: inline-block;
+      height: 28px;
+      width: 30px;
+      border: none;
+      margin: 5px; }
+
+main .content_header {
+  padding: 11px 0 11px 66px;
+  background-image: url(https://gogoanime.fi/img/bg-main-bong.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-color: #ffc119;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+  main .content_header.recent_release {
+    background-position: right -45px; }
+  main .content_header span {
+    position: absolute;
+    background: url(https://gogoanime.fi/img/bg-main-3.png) no-repeat -31px -2px;
+    display: inline-block;
+    height: 54px;
+    width: 55px;
+    top: -8px;
+    left: 4px; }
+  main .content_header ul {
+    list-style: none;
+    margin: 0; }
+    main .content_header ul li {
+      display: inline-block; }
+
+/*# sourceMappingURL=index.css.map */
